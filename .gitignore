@@ -1,0 +1,13 @@
+# eBPF generated files
+bpf_bpfel.go
+bpf_bpfeb.go
+bpf_bpfel.o
+bpf_bpfeb.o
+
+# Compiled binary
+tcp-drop
+
+# Go build artifacts
+*.o
+*.a
+*.so
