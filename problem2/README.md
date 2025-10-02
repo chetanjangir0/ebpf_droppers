@@ -8,7 +8,7 @@ go build -o process-drop .
 
 ## 2. Terminal 1: Run the eBPF program (for the process curl)
 ```sh
-sudo ./process-drop -process curl
+sudo ./process-drop -process curl -port 4040
 ```
 
 ## 3. Terminal 2: Start the servers 
